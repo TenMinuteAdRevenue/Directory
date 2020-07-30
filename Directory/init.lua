@@ -27,7 +27,7 @@ local Directory = { _internal = game:GetDescendants() } do
                 passed = false
             end;
 
-            if file:IsDescendantOf(script) then
+            if file:IsDescendantOf(script) or file == script then
                 passed = false
             end;
         end;
