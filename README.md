@@ -38,7 +38,7 @@ end;
 return Module
 ```
 
-You can also add an "environment" (look inside Directory, theres a function called ```luafunction Directory:Environment()```) which allows you to do this:
+You can also add an "environment" (look inside Directory, theres a function called ```lua function Directory:Environment() ```) which allows you to do this:
 ```lua
 local Module = {}
 
