@@ -16,9 +16,14 @@ Welcome to "Directory" a module to handle all of your modules!
 # Code Examples
 This will get every module that it can reach and automatically require & pass the directory into it:
 ```lua
-local Directory = require(game:GetService("ReplicatedStorage"):WaitForChild("Directory")
-
+local Directory = require(game:GetService("ReplicatedStorage"):WaitForChild("Directory"))
 Directory:init()
+
+--[[
+  Localscript inside game.StarterPlayers.StarterPlayerScripts that does this 
+  AND
+  Serverscript inside game.ServerScriptService that does this
+]]
 ```
 
 Example setup of a module while using Directory:
